@@ -6,14 +6,14 @@ import profilePic from "../assets/profilepic.jpg";
 const Home = () => {
     return (
         <div name="home" className="flex h-screen bg-[#0d231c]">
-            {/* Left Column for Content */}
+            
             <div className="flex-1 flex justify-end my-[300px]">
                 <div className="max-w-[800px] px-8">
                     <p className="text-[#FFF8E7]">Hi, my name is</p>
                     <h1 className="text-4xl sm:text-7xl font-bold text-[#D4AF37]">
                         Levente Fenyvesi
                     </h1>
-                    <h2 className="text-2xl sm:text-7xl font-bold text-[#FFF8E7]">
+                    <h2 className="sm:text-7xl font-bold text-[#FFF8E7]">
                         I'm a Full Stack Developer.
                     </h2>
                     <p className="text-[#FFF8E7] py-4">
@@ -38,7 +38,6 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Right Column for Profile Picture */}
             <div className="flex-1 flex justify-center items-center">
                 <img
                     src={profilePic}

@@ -74,14 +74,6 @@ const Skills = () => {
                     <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
                         <img
                             className="w-20 mx-auto"
-                            src={ReactImg}
-                            alt="HTML icon"
-                        />
-                        <p className="my-4">REACT</p>
-                    </div>
-                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
-                        <img
-                            className="w-20 mx-auto"
                             src={NetCore}
                             alt="HTML icon"
                         />
@@ -94,6 +86,14 @@ const Skills = () => {
                             alt="HTML icon"
                         />
                         <p className="my-4">C#</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={ReactImg}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">REACT</p>
                     </div>
                     <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
                         <img
