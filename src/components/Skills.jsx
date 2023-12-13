@@ -4,8 +4,14 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
+import Docker from "../assets/docker.png";
+import Angular from "../assets/angular.png";
+import NetCore from "../assets/netcore.png";
+import TypeScript from "../assets/typescript.png";
+import CSharp from "../assets/csharp.png";
+import PostgreSQL from "../assets/postgresql.png";
+import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
     return (
@@ -52,6 +58,22 @@ const Skills = () => {
                     <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
                         <img
                             className="w-20 mx-auto"
+                            src={TypeScript}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">TYPESCRIPT</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={Angular}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">ANGULAR</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
                             src={ReactImg}
                             alt="HTML icon"
                         />
@@ -60,10 +82,50 @@ const Skills = () => {
                     <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
                         <img
                             className="w-20 mx-auto"
+                            src={NetCore}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">.NET CORE</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={CSharp}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">C#</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
                             src={GitHub}
                             alt="HTML icon"
                         />
                         <p className="my-4">GITHUB</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={Docker}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">DOCKER</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={PostgreSQL}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">POSTGRESQL</p>
+                    </div>
+                    <div className="hover:scale-110 duration-500 text-[#0d231c] hover:text-[#FFF8E7]">
+                        <img
+                            className="w-20 mx-auto"
+                            src={Tailwind}
+                            alt="HTML icon"
+                        />
+                        <p className="my-4">TAILWIND</p>
                     </div>
                 </div>
             </div>
