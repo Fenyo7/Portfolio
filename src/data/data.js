@@ -1,35 +1,21 @@
-//import WorkIm from '../assets/projects/workImg.jpeg'
-//import RealEst from '../assets/projects/realestate.jpg'
+import FenyoBay from '../assets/projects/fenyobay.jpg'
 
 export const data=[
-    /* 
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"FenyoBay",
+        image:FenyoBay,
+        github:"https://github.com/Fenyo7/FebyoBay",
+        live:"https://frontend-production-ab2f.up.railway.app",
     },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    */
 ]
+
+/*
+{
+        id:1,
+        name:"FenyoBay",
+        image:FenyoBay,
+        github:"",
+        live:"",
+    },
+*/
